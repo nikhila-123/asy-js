@@ -61,6 +61,6 @@ back1.innerHTML="";
 }
 
 function sort(){
-    let p="nikhi"
+    let p="nikhila"
     console.log(p)
 }
