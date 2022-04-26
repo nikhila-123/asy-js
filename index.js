@@ -60,7 +60,4 @@ let back1 = document.getElementById("dummy")
 back1.innerHTML="";
 }
 
-function sort(){
-    let p="nikhila"
-    console.log(p)
-}
+
