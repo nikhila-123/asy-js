@@ -10,16 +10,16 @@ console.log(objectData[0].title);
 let tableData="";
 tableheader+= `
 <tr>
-<th>userId</th>
-<th onclick="sort()">id</th>
+<th>id</th>
+<th onclick="sort()">userId</th>
 <th>title</th>
 <th>body</th>
 </tr>`
 document.getElementById("text").innerHTML=tableheader;
 objectData.map((values)=>{
  tableData+= `<tr>
- <td><a href="#" onclick="test(${values.id})">${values.userId}</a></td>
- <td>${values.id}</td>
+ <td><a href="#" onclick="test(${values.id})">${values.id}</a></td>
+ <td>${values.userId}</td>
 <td>${values.title}</td>
 <td>${values.body}</td>
 <tr>`
@@ -42,8 +42,8 @@ let tableData="";
 tableData+= `
 <tr>
 
- <td>${objectData.userId}</td>
  <td>${objectData.id}</td>
+ <td>${objectData.userId}</td>
 <td>${objectData.title}</td>
 <td>${objectData.body}</td>
 <tr>`
