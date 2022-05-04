@@ -37,7 +37,12 @@ function showUserCreateBox() {
         Swal.fire(objects['message']);
         loadTable();
       }
+
     };
+    let test=document.getElementById("main");
+    let test1=document.createElement("a")
+    test1.href="./index.html";
+    test.appendChild(test1)
   }
 
 
